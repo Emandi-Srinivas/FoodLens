@@ -1,10 +1,10 @@
 # FOOD LENS 🌯🎥
 
-Foodlens is an advanced end-to-end **CNN Image Classification project** that comes with Keras We have created our own Model inspired from the **EfficientNetB1** model to accurately identify different types of food items from images.
+Foodlens is an advanced end-to-end **CNN Image Classification project** that comes with Keras We have created our own **FOOD LENS** Model inspired from the EfficientNetB1 model to accurately identify different types of food items from images.
 
 The model has been trained on the Food101 dataset. It can identify over 100 different food classes.
 
-The project also includes a user-friendly web application built with **Streamlit**, allowing users to upload food images and receive instant predictions along with the **top-5 predictions** from the model.
+The project also includes a user-friendly web application with some neat front-end built with **Streamlit**, allowing users to upload food images and receive instant predictions along with the **top-5 predictions** from the model.
 
 **Accuracy :** **`85%`**
 
@@ -16,16 +16,11 @@ The project also includes a user-friendly web application built with **Streamlit
 
 Finally, after training the model, We have exported it as `.hdf5` files and then integrated it with **Streamlit Web App**. 
 
-**Streamlit** turns data scripts into shareable web apps in minutes. 
-<!-- Once I got the App working on my local device I then deployed it using Streamlit’s invite-only **[sharing feature](https://streamlit.io/sharing)** -->
+**Streamlit** turns data scripts into shareable web apps in minutes.
 
-### Check the [deployed app](https://share.streamlit.io/gauravreddy08/food-vision/main/food-vision/app.py)
+Once the web app is loaded,
 
-> The app may take a couple of seconds to load for the first time, but it works perfectly fine.
-
-Once an app is loaded,
-
-1. Upload an image of food. If you do not have one, use the images from `food-images`
+1. Upload an image of food. If you do not have one, just use the images from `online`, drag and drop is working.
 2. Once the image is processed, **`Predict`** button appears. Click it.
 3. Once you click the **`Predict`** button, the model prediction takes place and the output will be displayed along with the model's **Top-5 Predictions**
 4. And That's it, there you go.
@@ -81,11 +76,11 @@ We've used **Lottie** in our project, Lottie is a library that parses **Adobe Af
 
 At first glance, the files in the repo may look intimidating and overwhelming. To avoid that, here is a quick guide :
 
-* `.gitignore`: tells what files/folders to ignore when committing
-* `app.py`: Our Food Vision app was built using Streamlit
-* `utils.py`: Some of the used functions in  `app.py`
-* `model-training.ipynb`: Google Colab Notebook used to train the model
-* `model`: Contains all the models used as *.hdf5* files
+* `.gitignore`: tells what files/folders to ignore when committing.
+* `app.py`: Our Food Vision app was built using Streamlit.
+* `utils.py`: Some of the used functions in  `app.py`.
+* `final_Prepared_Model_with_custom_data.ipynb`: Google Colab Notebook used to train the model.
+* `models`: Contains all the models used as *.hdf5* files.
 
 ## Created by - 
 
