@@ -43,15 +43,15 @@ class_names = get_classes()
 
 st.sidebar.title("What's Food Lens?")
 st.sidebar.write("""
-Foodlens is an advanced end-to-end **CNN Image Classification project** that comes with Keras and also utilizes the **EfficientNetB1** model to accurately identify different types of food items from images.
+Foodlens is an advanced end-to-end **CNN Image Classification project** that comes with Keras and also utilizes our own build **FOOD LENS** model inspired from EfficientNetB1 model to accurately identify different types of food items from images.
 
-The model has been trained on the Food101 dataset.It can identify over 100 different food classes
+The model has been trained on the Food101 dataset. It can identify over 100 different food classes
 
-The project also includes a user-friendly web application built with **Streamlit**, allowing users to upload food images and receive instant predictions along with the **top-5 predictions** from the model.
+The project also includes a user-friendly web application with some good front-end built with **Streamlit**, allowing users to upload food images and receive instant predictions along with the **top-5 predictions** from the model.
 
 **Accuracy :** **`85%`**
 
-**Model :** **`EfficientNetB1`**
+**Model :** **`FOOD LENS`**
 
 **Dataset :** **`Food101`**
 """)
