@@ -4,24 +4,24 @@ Foodlens is an advanced end-to-end **CNN Image Classification project** that com
 
 The model has been trained on the Food101 dataset. It can identify over 100 different food classes.
 
-The project also includes a user-friendly web application with some neat front-end built with **Streamlit**, allowing users to upload food images and receive instant predictions along with the **top-5 predictions** from the model.
+The project also includes a user-friendly web application with a neat front-end built with **Streamlit**, allowing users to upload food images and receive instant predictions along with the **top-5 predictions** from the model.
 
 **Accuracy :** **`85%`**
 
-**Model :** **inspired from `EfficientNetB1`**
+**Model :** **`FOOD LENS`**
 
 **Dataset :** **`Food101`**
 
 ## Looks Great, How you can use it?
 
-Finally, after training the model, We have exported it as `.hdf5` files and then integrated it with **Streamlit Web App**. 
+Finally, after training the model, we exported it as `.hdf5` files and then integrated it with **Streamlit Web App**. 
 
 **Streamlit** turns data scripts into shareable web apps in minutes.
 
 Once the web app is loaded,
 
 1. Upload an image of food. If you do not have one, just use the images from `online`, drag and drop is working.
-2. Once the image is processed, **`Predict`** button appears. Click it.
+2. Once the image is processed, the **`Predict`** button appears. Click it.
 3. Once you click the **`Predict`** button, the model prediction takes place and the output will be displayed along with the model's **Top-5 Predictions**
 4. And That's it, there you go.
 
